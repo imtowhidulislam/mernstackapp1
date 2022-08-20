@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input_area {
+  @apply p-2 border-none focus:border-2 focus:border-green-400 w-full;
+}
+.error {
+  @apply text-red-500 text-sm border-2 border-red-500 p-2;
+}
